@@ -1,5 +1,4 @@
 # Smart-IoT-Smoke-Weather-Monitoring-System-with-Mobile-Integration
-**Project Title: ESP32 Smoke and Weather Monitor with OLED, Blynk, and Buzzer**
 
 ---
 
@@ -79,12 +78,6 @@ A complete IoT-based environmental monitor using an ESP32, capable of:
 
 ---
 
-### Final Arduino Sketch
-
-(See full code in section above)
-
----
-
 ### Initial Mistakes and Fixes
 
 | Mistake                        | Fix                                     |
@@ -131,84 +124,3 @@ Ideal for smart home applications, industrial safety setups, or college-level pr
 * Solar power with battery backup
 * Add logging timestamp to Blynk via V4
 
----
-
-### Backup
-
-Keep the following files:
-
-* main.ino (Arduino Sketch)
-* Documentation.txt (this file)
-* Blynk Template ID, Name, Token
-* I2C Scanner utility
-* README.md for GitHub
-* project\_presentation.pdf for demos/interviews
-* /images/ folder with setup and OLED screenshots
-* demo.mp4 short video of working prototype
-
----
-
-### Sample README.md (for GitHub)
-
-```markdown
-# Smart IoT Smoke and Weather Monitor (ESP32 + OLED + Blynk)
-
-An IoT-based real-time environmental monitoring system using ESP32 and Blynk, capable of displaying live temperature, humidity, and smoke level data on an OLED screen and a mobile dashboard.
-
-## Features
-- DHT11 for temperature and humidity
-- MQ2 gas sensor for smoke detection
-- OLED screen with live sensor data and clock
-- Mobile dashboard with Blynk
-- Buzzer alert on smoke detection
-- WiFi-enabled updates every 2 seconds
-
-## Tech Stack
-- ESP32 (C++ Arduino)
-- Blynk IoT Platform
-- I2C (for OLED communication)
-- NTP Time (RTC from internet)
-
-## Demo and UI
-![OLED Display](images/oled_live.jpg)
-![Wiring](images/board.jpg)
-
-## Blynk Setup
-- V0: Temperature
-- V1: Humidity
-- V2: Smoke Level
-- V3: Smoke Detected (1/0)
-
-## Hardware Used
-- ESP32 Devkit
-- DHT11
-- MQ2
-- SSD1306 OLED
-- Buzzer
-
-## Output Sample
-```
-
-Temp: 29.1 C  |  Humidity: 60.2 %  |  Smoke: 381  |  Alert: SMOKE DETECTED
-2025-07-05 17:03:28
-
-```
-
-## Folder Structure
-```
-
-\|- main.ino
-\|- README.md
-\|- Documentation.txt
-\|- /images/
-\|- demo.mp4
-
-```
-
-## License
-MIT
-```
-
----
-
-Status: Successfully Completed
